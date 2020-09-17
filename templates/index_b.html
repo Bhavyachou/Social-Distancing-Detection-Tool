@@ -1,0 +1,127 @@
+<html> 
+   <body>  
+   <div class="transbox">
+		<span id="social">SOCIAL DISTANCE DETECTING TOOL</span>
+      <form   method = "post" enctype=multipart/form-data>
+		
+         <p id="imgt">Enter Image Location:</p> 
+         <p id="imgh"><input type=file name = "file" value="Image Location"/></p>
+         
+         <p id="vidt">Enter Video Location:</p> 
+         <p id="vidh"><input type=file name = "vid" value="Video Location"/></p>
+
+         <p id="camc">Use Camera:</p>
+         <p id="camt">
+			   <input type="text" id="camera" name="camera" value="Yes or No">		 </p>
+         <p id="camh"><button type = "submit" onclick = "redirectFun()" value = "submit" >Submit</button></p>
+		
+      </form> 
+<div>    
+   </body> 
+   <script>
+   function redirectFun(){
+		console.log("hi");
+   }
+   </script>
+   <style>
+   body{
+   background-repeat: no-repeat, repeat;
+  background-image: url("bg.jpg");
+  background-blend-mode: lighten;
+  background-size: 1440px 700px;
+  background-opacity:0.2;
+}
+div.transbox {
+  
+  background-color: #ffffff;
+  opacity: 0.6;
+  width:1440px;
+  height:700px;
+  
+}
+   
+   span#social{
+    width:700px;
+	position:absolute;
+	left:28%;
+	top:80px;
+	font-size:35px;
+	font-weight:bold;
+	font-family:Lucida Console;
+   }
+   P#imgt{
+	width:600px;
+	position:absolute;
+	left:35%;
+	top:160px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Verdana;
+   }
+   p#imgh{
+   width:600px;
+	position:absolute;
+	left:35%;
+	top:200px;
+   }
+   P#vidt{
+	width:600px;
+	position:absolute;
+	left:35%;
+	top:234px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Verdana;
+   }
+   p#vidh{
+   width:600px;
+	position:absolute;
+	left:35%;
+	top:270px;
+   }
+   p#camc{
+   width:600px;
+	position:absolute;
+	left:35%;
+	top:300px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Verdana;
+   }
+   P#camt{
+	width:600px;
+	position:absolute;
+	left:35%;
+	top:330px;
+	font-size:20px;
+	font-family:Verdana;
+   }
+   p#camh{
+   width:600px;
+	position:absolute;
+	left:40%;
+	top:30px;
+   }
+    button{
+   width:100px;
+   height:40px;
+   font-size:20px;
+	font-family:Verdana;
+	color:white;
+	background-color:green;
+	border:none;
+	border-radius: 4px;
+	position:absolute;
+	top:350px;
+	left:40px;
+	border:none;
+   }
+   button#active{
+   border:none;
+   }
+   button#hover{
+   border:none;
+   }
+   </style>
+</html> 
+
